@@ -1,0 +1,15 @@
+.item-image {
+	padding-bottom: 100%;
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	background-size: contain; 
+	/* background-position: center center; */
+}
+
+.item-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}

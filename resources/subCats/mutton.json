@@ -1,0 +1,44 @@
+[
+   {
+    "id": "01",
+	"productName": "MUTTON CURRY",
+	"imageUrl" : "resources/goatDishes.jpg"
+
+    },
+   {
+    "id": "02",
+	"productName": "MUTTON VINDALOO",
+	"imageUrl" : "resources/goatDishes.jpg"
+    
+    },
+   {
+    "id": "03",
+	"productName": "GOAT KORMA",
+	"imageUrl" : "resources/goatDishes.jpg"
+    
+    },
+
+    {
+    "id": "04",
+  "productName": "LAMB KORMA",
+  "imageUrl" : "resources/goatDishes.jpg"
+
+    },
+
+    {
+    "id": "05",
+  "productName": "LAMB VINDALOO",
+  "imageUrl" : "resources/goatDishes.jpg"
+
+    },
+
+    {
+    "id": "06",
+  "productName": "LAMB CURRY",
+  "imageUrl" : "resources/goatDishes.jpg"
+
+    }
+
+
+	
+]

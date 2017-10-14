@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "productName": "CHICKEN BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10.99
+  },
+  {
+    "id": "02",
+    "productName": "MUTTON BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "03",
+    "productName": "LAMB BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "04",
+    "productName": "SHRIMP BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "05",
+    "productName": "VEGETARIAN BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "06",
+    "productName": "FISH BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 10.99
+  },
+  {
+    "id": "07",
+    "productName": "EGG BIRYANI",
+    "imageUrl": "resources/biryani.jpg",
+    "PRICE": 7.99
+  }
+]

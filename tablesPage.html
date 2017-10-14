@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>TableArrangment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="tablesPage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+<div class="container-fluid">
+
+      <div class="row">
+        <button id='back' class='btn btn-default btn-small' onclick="placeOrderPage()">&lt; Back</button>
+        <div class="row" id="tableArrangement"></div>
+      </div>
+</div>
+
+    <!-- Modal content-->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-body">
+        <p>This should be the menu items selected with div id ------- selectedItems</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <script type="text/javascript" src="tablesPage.js"></script>
+  </body>
+
+</html>
