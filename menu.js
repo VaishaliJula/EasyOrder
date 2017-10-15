@@ -1,4 +1,11 @@
 var basket = [];
+var party = localStorage.getItem('party');
+if (party) {
+  party = JSON.parse(party);
+  console.log(party);
+} else {
+  console.log('Party not found')
+}
 function loadCategories() {
   var menu = document.getElementById('menu');
   $(menu).empty()
@@ -36,6 +43,12 @@ function createCard (item) {
   '</div>';
 }
 
+function createList (item) {
+  return '<div class="list">' +
+    item.name +
+  '</div>'
+}
+
 function getItem(item) {
   var menu = document.getElementById('menu');
 
@@ -44,13 +57,13 @@ function getItem(item) {
   $.getJSON(item.subCat, function (results) {
     results.forEach((result) => {
         var elem = document.createElement('div');
-        elem.classList.add('col-sm-4')
-        elem.innerHTML = createCard({
+        elem.classList.add('col-sm-12')
+        elem.innerHTML = createList({
           name: result.productName,
           img: result.imageUrl
         });
         menu.appendChild(elem);
-        var card = elem.getElementsByClassName('card')[0];
+        var card = elem.getElementsByClassName('list')[0];
         card.addEventListener('click', addToCart.bind(null, result));
     });
   });

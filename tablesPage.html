@@ -27,9 +27,15 @@
 					<div class="modal-title">Choose Party Size</div>
 				</div>
 				<div class="modal-body">
-					<p>This should be the menu items selected with div id ------- selectedItems</p>
+					<div class="party-name">
+						<p>Optionally enter a party name and then choose a size from below. Tap "Add" to use the default party size.</p>
+						<input type="text" id="party-name" placeholder="Party name"
+							class="form-control"/>
+					</div>
+					<div id="party-size"></div>
 				</div>
 				<div class="modal-footer">
+					<button type="button" class="btn btn-success" onclick="selectMenu()">Add</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
