@@ -38,7 +38,9 @@ function loadTables() {
 function arrangeTable (item) {
   return '<div class="tableNumbers">' +
     '<div class="item-image" style="background-image:url(' +
-      item.img + ')" onclick="modalExample()">' +
+      item.img + ')" data-toggle="modal" data-target="#myModal" ' +
+      'data-tablenum="' + item.tableNumber +
+      '" data-tableimg="' + item.img + '">' +
     '</div>' +
     '<div class="item-number">' +
       item.tableNumber +
@@ -46,10 +48,17 @@ function arrangeTable (item) {
   '</div>';
 }
 
-function modalExample(){
-alert("In modal");
-var myModal = document.getElementById(myModal);
-// alert(document.getElementsByClassName("item-image").innerHTML = myModal);
+$('#myModal')
+  .on('show.bs.modal', onModalShow)
+
+function onModalShow(evt){
+  console.log(evt.relatedTarget);
+  var tableNum = $(evt.relatedTarget).data('tablenum')
+  var tableImage = $(evt.relatedTarget).data('tableimg')
+  $('#myModal .modal-body').html('<p>Table: ' + tableNum + '</p>')
+  // alert("In modal");
+  // var myModal = document.getElementById(myModal);
+  // document.getElementsByClassName("item-image").innerHTML = myModal;
 
 }
 
