@@ -2,10 +2,10 @@ var basket = [];
 var selected = 4;
 function loadTables() {
   var tableOrder = document.getElementById('tableArrangement');
-  $(tableArrangement).empty()
+  tableOrder.innerHTML = '';
   $.getJSON('resources/tableData.json', function (results) {
-    $.each(results, function (index) {
-
+    // $.each(results, function (index) {
+    for (let index = 0; index < results.length; index++) {
       //creating div
       var elem = document.createElement('div');
       // elem.classList.add('col-sm-3');
@@ -28,7 +28,8 @@ function loadTables() {
       tableArrangement.appendChild(
         elem
       );
-    })
+    }
+
   })
   document.getElementById('back').style.display = 'none';
 }
@@ -58,7 +59,7 @@ for (let i = 0; i < 24; i++) {
   template += '<span class="size-cell" data-size="' + (i + 1) + '"><span>' + (i + 1) + '</span></span>'
 }
 template += '</div>'
-$('#myModal #party-size').html(template);
+document.querySelector('#myModal #party-size').innerHTML = template;
 
 $('#myModal .size-cell').on('click', function (evt) {
   var size = $(this).data('size');
@@ -67,7 +68,7 @@ $('#myModal .size-cell').on('click', function (evt) {
 });
 
 function selectMenu() {
-  var partyName = $('#party-name').val();
+  var partyName = document.getElementById('party-name').value;
   var selection = {
     size: selected,
     name: partyName
@@ -78,8 +79,11 @@ function selectMenu() {
 
 function select(selection) {
   var indx = --selection;
-  $('#myModal .size-cell.selected').removeClass('selected');
-  $($('#myModal .size-cell')[indx]).addClass('selected');
+  document.querySelectorAll('#myModal .size-cell.selected')
+    .forEach(function (el) {
+      el.classList.remove('selected')
+    });
+  document.querySelectorAll('#myModal .size-cell')[indx].classList.add('selected');
 }
 
 select(selected);

@@ -8,9 +8,9 @@ if (party) {
 }
 function loadCategories() {
   var menu = document.getElementById('menu');
-  $(menu).empty()
+  menu.innerHTML = '';
   $.getJSON('resources/categories.json', function (results) {
-    $.each(results, function (index) {
+    for (let index = 0; index < results.length; index++) {
 
       //creating div
       var elem = document.createElement('div');
@@ -25,7 +25,7 @@ function loadCategories() {
       );
       var card = elem.getElementsByClassName('card')[0];
       card.addEventListener('click', getItem.bind(null, results[index]));
-    })
+    }
   })
   document.getElementById('back').style.display = 'none';
 }
@@ -52,7 +52,7 @@ function createList (item) {
 function getItem(item) {
   var menu = document.getElementById('menu');
 
-  $(menu).empty();
+  menu.innerHTML = '';
 
   $.getJSON(item.subCat, function (results) {
     results.forEach((result) => {
