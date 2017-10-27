@@ -1,0 +1,92 @@
+* {
+	user-select: none;
+}
+.myRight
+{
+	float : right;
+	margin-right: 5px;
+}
+.menuItemsAlignment
+{
+	padding: 10px;
+	background-color: firebrick;
+	margin: 0;
+	border-radius: 4px;
+}
+.primaryRow
+{
+/*	overflow-y: scroll;
+*//*	height: 400px;
+*/
+/* background-color: firebrick; */
+}
+
+.item-image {
+	position: relative;
+	width: 100%;
+	height: 0;
+	border-radius: 6px;
+	overflow: hidden;
+	padding-bottom: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.item-name {
+	text-align: center;
+	color: white;
+	border-radius: 0 0 6px 6px;
+	background-color: rgba(51, 51, 51, 0.8);
+	padding: 4px;
+	white-space: nowrap;
+	position: absolute;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	bottom: 4px;
+	width: calc(100% - 8px);
+}
+
+.card {
+	padding: 4px;
+	position: relative;
+	max-width: 135px;
+	margin: auto;
+	cursor: pointer;
+}
+
+div#menu .list {
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    margin: 2px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div#menu .list:hover {
+    background-color:#333;
+}
+
+#back {
+	margin: 15px;
+}
+
+div#basket-title {
+	padding: 4px;
+	border: 1px solid #ddd;
+	font-size: bolder;
+	border-bottom: 1px;
+}
+
+#basket > .row > .list-group {
+	max-height: calc(100% - 29px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#basket > .row > .list-group li {
+	transition: 0.15s linear all;
+}

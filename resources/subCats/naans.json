@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "productName": "NAAN",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 1.99
+  },
+  {
+    "id": "02",
+    "productName": "BUTTER NAAN",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 1.99
+  },
+  {
+    "id": "03",
+    "productName": "GARLIC NAAN",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 3.99
+  },
+  {
+    "id": "04",
+    "productName": "ROTI",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 2.99
+  },
+  {
+    "id": "05",
+    "productName": "KULCHA",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 3.99
+  },
+  {
+    "id": "06",
+    "productName": "PARATHA",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 2.99
+  },
+  {
+    "id": "07",
+    "productName": "PULKA",
+    "imageUrl": "resources/Naans.jpg",
+    "PRICE": 1.99
+  }
+]

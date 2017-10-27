@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "productName": "FISH FRY",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10.99
+  },
+  {
+    "id": "02",
+    "productName": "FISH PULUSU",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "03",
+    "productName": "PRAWNS CURRY",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "04",
+    "productName": "PRAWNS PULUSU",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "05",
+    "productName": "APOLO FISH",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10
+  },
+  {
+    "id": "06",
+    "productName": "SHRIMP CURRY",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 10.99
+  },
+  {
+    "id": "07",
+    "productName": "ACHARI FISH",
+    "imageUrl": "resources/seaFood.jpg",
+    "PRICE": 7.99
+  }
+]

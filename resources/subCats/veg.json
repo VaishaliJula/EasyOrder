@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "productName": "ALOO GOBI",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "02",
+    "productName": "PANEER BUTTER MASALA",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "03",
+    "productName": "PANEER 65",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "04",
+    "productName": "CHILLI PANEER",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "05",
+    "productName": "VEG KORMA",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 13.99
+  },
+  {
+    "id": "06",
+    "productName": "MATAR PANEER",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 12.99
+  },
+  {
+    "id": "07",
+    "productName": "KADAI MUSHROOM",
+    "imageUrl": "resources/veggies.jpg",
+    "PRICE": 11.99
+  }
+]

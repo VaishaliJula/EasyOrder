@@ -1,0 +1,27 @@
+[
+  {
+    "id": "01",
+    "productName": "KULFI",
+    "imageUrl": "resources/desserts.jpg"
+  },
+  {
+    "id": "02",
+    "productName": "RAS MALAI",
+    "imageUrl": "resources/desserts.jpg"
+  },
+  {
+    "id": "03",
+    "productName": "KHEER",
+    "imageUrl": "resources/desserts.jpg"
+  },
+  {
+    "id": "04",
+    "productName": "GULAB JAMUN",
+    "imageUrl": "resources/desserts.jpg"
+  },
+  {
+    "id": "05",
+    "productName": "HALWA",
+    "imageUrl": "resources/desserts.jpg"
+  }
+]

@@ -1,0 +1,53 @@
+[
+   {
+    "id": "01",
+	"productName": " BUTTER CHICKEN",
+	"imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+
+
+    },
+   {
+    "id": "02",
+	"productName": "CHICKEN TIKKA MASALA",
+	"imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    },
+   {
+    "id": "03",
+	"productName": "KARAHI CHICKEN",
+	"imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    },
+     {
+    "id": "04",
+  "productName": "CHICKEN KORMA",
+  "imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    },
+     {
+    "id": "05",
+  "productName": "CHICKEN CHETTINAD",
+  "imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    },
+     {
+    "id": "06",
+  "productName": "CHICKEN CURRY",
+  "imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    },
+     {
+    "id": "07",
+  "productName": "CHICKEN JALFREZI",
+  "imageUrl" : "resources/chickenDishes.jpg",
+  "price" : "$9.99"
+    
+    }
+	
+]

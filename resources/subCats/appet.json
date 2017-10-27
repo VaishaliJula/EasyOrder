@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "productName": "VEG SAMOSA",
+    "imageUrl": "resources/appetizers.jpg",
+    "PRICE": 6.99
+  },
+  {
+    "id": "02",
+    "productName": "VEG CUTLET",
+    "imageUrl": "resources/appetizers.jpg",
+    "PRICE": 7.99
+  },
+  {
+    "id": "03",
+    "productName": "BEEF SAMOSA",
+    "imageUrl": "resources/appetizers.jpg",
+    "PRICE": 6.99
+  },
+  {
+    "id": "04",
+    "productName": "CHICKEN SAMOSA",
+    "imageUrl": "resources/appetizers.jpg",
+    "PRICE": 5.99
+  },
+  {
+    "id": "05",
+    "productName": "ALOO TIKKI",
+    "imageUrl": "resources/appetizers.jpg",
+    "PRICE": 3.99
+  }
+]

@@ -1,0 +1,33 @@
+[
+    {
+      "id": "01",
+      "productName": "TAMARINF CHUTNEY",
+      "imageUrl": "resources/condiments.jpg",
+      "PRICE": 0.99
+    },
+    {
+      "id": "02",
+      "productName": "PUDINA CHUTNEY",
+      "imageUrl": "resources/condiments.jpg",
+      "PRICE": 0.99
+    },
+    {
+        "id": "02",
+        "productName": "VENEGAR",
+        "imageUrl": "resources/condiments.jpg",
+        "PRICE": 0.99
+      },
+      {
+        "id": "02",
+        "productName": "RANCHE",
+        "imageUrl": "resources/condiments.jpg",
+        "PRICE": 0.99
+      },
+      {
+        "id": "02",
+        "productName": "CHILLI SAUCE",
+        "imageUrl": "resources/condiments.jpg",
+        "PRICE": 0.99
+      }
+  ]
+  

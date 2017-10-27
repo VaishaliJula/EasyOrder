@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "productName": "COKE",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 1.99
+  },
+  {
+    "id": "02",
+    "productName": "PEPSI",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 1.99
+  },
+  {
+    "id": "03",
+    "productName": "THUMPSUP",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 1.99
+  },
+  {
+    "id": "04",
+    "productName": "RED WINE",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 21.99
+  },
+  {
+    "id": "05",
+    "productName": "LIMCA",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 3.99
+  },
+  {
+    "id": "06",
+    "productName": "ICE TEA",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 2.99
+  },
+  {
+    "id": "07",
+    "productName": "LEMONAID",
+    "imageUrl": "resources/beverages.jpg",
+    "PRICE": 1.99
+  }
+]

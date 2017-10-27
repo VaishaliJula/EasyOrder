@@ -1,0 +1,20 @@
+[
+  {
+    "id": "01",
+    "productName": "TANDOORI CHICKEN",
+    "imageUrl": "resources/grilled.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "02",
+    "productName": "GRILLED PANEER",
+    "imageUrl": "resources/grilled.jpg",
+    "PRICE": 11.99
+  },
+  {
+    "id": "03",
+    "productName": "GRILLED grilled",
+    "imageUrl": "resources/grilled.jpg",
+    "PRICE": 11.99
+  }
+]

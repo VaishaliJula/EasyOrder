@@ -1,0 +1,14 @@
+[
+  {
+    "id": "01",
+    "productName": "VEG THALI",
+    "imageUrl": "resources/thali.jpg",
+    "PRICE": 14.99
+  },
+  {
+    "id": "02",
+    "productName": "NON VEG THALI",
+    "imageUrl": "resources/thali.jpg",
+    "PRICE": 14.99
+  }
+]

@@ -1,0 +1,56 @@
+.item-image {
+	padding-bottom: 100%;
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	background-size: contain; 
+	/* background-position: center center; */
+}
+
+.item-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.party-name p {
+    text-align: center;
+    font-size: 0.9em;
+}
+.size-cells {
+	text-align: center;
+}
+
+.size-cell span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.size-cell {
+    width: 4em;
+	height: 4em;
+	position: relative;
+    display: inline-block;
+    padding: 4px;
+	background-color: #4e4e58;
+	transition: 0.5s ease all;
+    margin: 4px;
+	color: white;
+	cursor: pointer;
+}
+
+.size-cell:hover,
+.size-cell.selected {
+	background-color: #65a765;
+}
+
+div#party-size {
+    margin: 16px 0;
+}

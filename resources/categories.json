@@ -1,0 +1,60 @@
+[{
+  "name": "Chicken",
+  "subCat": "resources/subCats/chicken.json",
+  "img": "resources/chickenDishes.jpg"
+},
+{
+  "name": "Goat",
+  "subCat": "resources/subCats/mutton.json",
+  "img": "resources/goatDishes.jpg"
+},
+{
+  "name": "Desserts",
+  "subCat": "resources/subCats/desserts.json",
+  "img": "resources/desserts.jpg"
+},
+{
+  "name": "Biryanis",
+  "subCat": "resources/subCats/biryani.json",
+  "img": "resources/biryani.jpg"
+},
+{
+  "name": "Naans",
+  "subCat": "resources/subCats/naans.json",
+  "img": "resources/Naans.jpg"
+},
+{
+  "name": "Sea Food",
+  "subCat": "resources/subCats/seafood.json",
+  "img": "resources/seaFood.jpg"
+},
+{
+  "name": "Beverages",
+  "subCat": "resources/subCats/bev.json",
+  "img": "resources/beverages.jpg"
+},
+{
+  "name": "Appetizers",
+  "subCat": "resources/subCats/appet.json",
+  "img": "resources/appetizers.jpg"
+},
+{
+  "name": "Veggies",
+  "subCat": "resources/subCats/veg.json",
+  "img": "resources/veggies.jpg"
+},
+{
+  "name": "Grilled",
+  "subCat": "resources/subCats/grilled.json",
+  "img": "resources/grilled.jpg"
+},
+{
+  "name": "Thali",
+  "subCat": "resources/subCats/thali.json",
+  "img": "resources/thali.jpg"
+},
+{
+  "name": "Condiments",
+  "subCat": "resources/subCats/condiments.json",
+  "img": "resources/condiments.jpg"
+}]
